@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Semana 2</title>
+    
+        <style>
+      
+        *{font-family: comic sans ms;}
+
+      h3{ text-align: center; 
+       font-size:150%;}
+
+       .cchicken{float:right;border:10px;
+            background-color:#B06D73;width: 30%;
+            text-align: center;
+            border-bottom: 3px solid black;
+            border-left: 3px solid black;}
+
+       .cbeef{float:right;border:10px;
+            background-color:#BB1A1A;width: 30%;
+            text-align: center; color:white;
+            border-bottom: 3px solid black;
+            border-left: 3px solid black;}
+
+       .csushi{float:right;border:10px;
+            background-color:#DFBD6A;width: 30%;
+            text-align: center;
+            border-bottom: 3px solid black;
+            border-left: 3px solid black;}
+
+       .caja-ploma{background-color: #929191;
+            width:30%;
+            margin:15px;
+            border: 3px solid black;
+            float:left;
+            padding-bottom:10px;
+            padding-left:5px;
+            line-height: 120%;}
+
+        /*grande*/
+        @media (min-width:992px){
+         #c1{ width:30%; }
+         #c2{ width:30%; }
+         #c3{ width:30%; }
+        
+        }
+        
+        /*mediano*/
+        @media (min-width:768px) and (max-width:991px) {
+         #c1 { width:40%; }
+         #c2{ width:40%; }
+        #c3{width: 85%;}
+        }
+        /*pequeño*/
+        @media (max-width:767px) {
+          #c3{width:90%;}
+          #c2{width: 90%;}
+          #c1{width: 90%;}
+        }
+        
+        
+        
+    </style>
+  </head>
+<body>
+
+<h3 style='text-align:center;'><b>Our Menu</b></h3>
+  
+
+      <!----------Cuadro Chicken--------->
+   
+      <div id="c1" class="caja-ploma">
+            <div class="caja1">
+            <font class="cchicken">
+              <b>Chicken</b></font>
+            <br>
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              
+            </div>
+      </div>
+   
+
+      <!-------------Cuadro Beef--------->
+      <div id="c2" class="caja-ploma">
+
+            <font class="cbeef">
+              <b>Beef</b></font>
+            <br>
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              
+            
+      </div>
+      <!------------Cuadro Sushi--------->
+      <div id="c3" class="caja-ploma">
+
+            <font class="csushi">
+              <b>Sushi</b></font>
+            <br>
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              
+
+    </div>
+
+
+</body>
+</html>
